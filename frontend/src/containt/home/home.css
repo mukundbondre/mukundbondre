@@ -4,7 +4,42 @@
     background-color: black;
     color: #fff;
 }
+
 .home{
-    height: 80vh;
     width: 100%;
+    height: 80vh;
+    /* background-color: green; */
+    display: flex;
+}
+.home .detail{
+    width: 50%;
+}
+.home .detail table p{
+    letter-spacing: 10px;
+    width: 100%;
+    white-space: nowrap;
+    border-right: 5px solid;
+    overflow: hidden;
+    animation: 
+        typing 5s infinite;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+.home .detail table{
+    padding: 20%;
+    padding-left: 30%;
+}
+.home .detail table tr td,th{
+    padding: 10px;
+    text-align: left;
+}
+.home .photo img{
+    /* background-color: red; */
+    padding: 30px;
+    height: 70vh;
+    padding-left: 60px;
 }
