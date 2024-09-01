@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fff;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    margin: 10px;
+}
+.navbar ul{
+    display: flex;
+    float: right;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 20%;
+}
+.navbar ul * {
+    padding: 30px;
+    list-style-type: none;
+}
+p{
+    font-size: 40px;
+    padding: 20px;
+    margin-left: 10%;
+}
+p::first-letter {
+    border: 7px rgb(0, 183, 255) solid;
+    padding: 5px 10px;
+    margin-right: 6px;
+}

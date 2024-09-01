@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fff;
+}
+.home{
+    height: 80vh;
+    width: 100%;
+}
