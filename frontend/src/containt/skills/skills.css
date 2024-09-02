@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+.skills div{
+    display: flex;
+}
+.skills div *{
+    width: 50%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.skills .heading{
+    width: 25%;
+    margin-left: 40%;
+    font-size: 20px;
+}
+.skills .heading h1{
+    border-bottom: rgb(0, 183, 255) solid 5px;
+}
+.skills div h2{
+    color: rgb(0, 183, 255);
+}

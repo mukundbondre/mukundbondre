@@ -5,7 +5,7 @@ import resume from '../../mukund-bondre-resume.pdf';
 
 function About() {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className='photo'>
         <img src={image} />
       </div>

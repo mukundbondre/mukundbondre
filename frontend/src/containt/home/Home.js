@@ -4,7 +4,7 @@ import img from '../../images/mukund.png';
 
 function Home() {
   return (
-    <div className='home'>
+    <div className='home' id='home'>
       <div className='detail'>
         <table>
           <tr>
