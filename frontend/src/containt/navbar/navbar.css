@@ -6,7 +6,7 @@
 }
 .navbar{
     display: flex;
-    margin: 10px;
+    height: 100px;
 }
 .navbar ul{
     display: flex;
@@ -17,15 +17,23 @@
 }
 .navbar ul * {
     padding: 30px;
-    list-style-type: none;
+    text-decoration: none
 }
 .navbar p{
     font-size: 40px;
-    padding: 20px;
+    margin: 30px;
     margin-left: 10%;
+}
+.navbar p:hover{
+    cursor: pointer;
 }
 .navbar p::first-letter {
     border: 7px rgb(0, 183, 255) solid;
     padding: 5px 10px;
     margin-right: 6px;
+}
+.navbar ul a:hover{
+    border-bottom: 2px solid rgb(0, 183, 255);
+    color: rgb(0, 183, 255);
+    cursor: pointer;
 }

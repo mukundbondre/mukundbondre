@@ -7,7 +7,12 @@ function Home() {
     <div className='home'>
       <div className='detail'>
         <table>
-          <p>WEB DEVELOPER</p>
+          <tr>
+            <td colSpan={2}>
+              <p>WEB DEVELOPER</p>
+            </td>
+          </tr>
+
           <tr>
             <td colSpan={2}>
               <hr />
@@ -19,7 +24,7 @@ function Home() {
           </tr>
           <tr>
             <th>D.O.B</th>
-            <td>12 OCT 2001</td>
+            <td>OCT 12<sup>th</sup> 2001</td>
           </tr>
           <tr>
             <th>PHONE</th>
@@ -40,7 +45,7 @@ function Home() {
         </table>
       </div>
       <div className='photo'>
-        <img src={img}/>
+        <img src={img} alt='Mukund' />
       </div>
     </div>
   )

@@ -1,17 +1,16 @@
 import React from 'react';
 import "./navbar.css";
-
 function Navbar() {
   return (
     <div className='navbar'>
-        <p>MUKUND</p>
-        <ul>
-            <li>HOME</li>
-            <li>ABOUT ME</li>
-            <li>SKILLS</li>
-            <li>RESUME</li>
-            <li>CONTACT</li>
-        </ul>
+      <p>MUKUND</p>
+      <ul>
+        <a href='#home'>HOME</a>
+        <a href='#about'>ABOUT ME</a>
+        <a href='#skills'>SKILLS</a>
+        <a href='#resume'>RESUME</a>
+        <a href='#contact'>CONTACT</a>
+      </ul>
     </div>
   )
 }
