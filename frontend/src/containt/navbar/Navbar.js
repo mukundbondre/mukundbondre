@@ -8,7 +8,7 @@ function Navbar() {
         <a href='#home'>HOME</a>
         <a href='#about'>ABOUT ME</a>
         <a href='#skills'>SKILLS</a>
-        <a href='#resume'>RESUME</a>
+        <a href='#education'>EDUCATION</a>
         <a href='#contact'>CONTACT</a>
       </ul>
     </div>

@@ -40,7 +40,7 @@ function Home() {
           </tr>
           <tr>
             <th>WEBSITE</th>
-            <td>www.mukundbondre.com</td>
+            <td>mukundbondre07.web.app</td>
           </tr>
         </table>
       </div>

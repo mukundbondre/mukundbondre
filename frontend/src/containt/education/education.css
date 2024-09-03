@@ -5,24 +5,24 @@
     color: #fff;
     scroll-behavior: smooth;
 }
-.skills div{
+.education div{
     display: flex;
 }
-.skills div *{
+.education div *{
     width: 50%;
     margin: 20px;
     display: flex;
     flex-direction: column;
     margin-left: 10%;
 }
-.skills .heading{
-    width: 23%;
-    margin-left: 40%;
+.education .heading{
+    width: 35%;
+    margin-left: 36%;
     font-size: 20px;
 }
-.skills .heading h1{
+.education .heading h1{
     border-bottom: rgb(0, 183, 255) solid 5px;
 }
-.skills div h2{
+.education div h2{
     color: rgb(0, 183, 255);
 }
